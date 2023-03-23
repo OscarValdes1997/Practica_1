@@ -14,6 +14,8 @@
 		F03D787529CCE18F007507C2 /* Practica_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D787429CCE18F007507C2 /* Practica_1Tests.swift */; };
 		F03D787F29CCE18F007507C2 /* Practica_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D787E29CCE18F007507C2 /* Practica_1UITests.swift */; };
 		F03D788129CCE18F007507C2 /* Practica_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D788029CCE18F007507C2 /* Practica_1UITestsLaunchTests.swift */; };
+		F03D788E29CCEE04007507C2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D788D29CCEE04007507C2 /* CircleImage.swift */; };
+		F03D789029CCF0AE007507C2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D788F29CCF0AE007507C2 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F03D787A29CCE18F007507C2 /* Practica_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practica_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03D787E29CCE18F007507C2 /* Practica_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_1UITests.swift; sourceTree = "<group>"; };
 		F03D788029CCE18F007507C2 /* Practica_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F03D788D29CCEE04007507C2 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F03D788F29CCF0AE007507C2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				F03D786329CCE18E007507C2 /* Practica_1App.swift */,
 				F03D786529CCE18E007507C2 /* ContentView.swift */,
+				F03D788D29CCEE04007507C2 /* CircleImage.swift */,
+				F03D788F29CCF0AE007507C2 /* MapView.swift */,
 				F03D786729CCE18F007507C2 /* Assets.xcassets */,
 				F03D786929CCE18F007507C2 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F03D786629CCE18E007507C2 /* ContentView.swift in Sources */,
+				F03D789029CCF0AE007507C2 /* MapView.swift in Sources */,
 				F03D786429CCE18E007507C2 /* Practica_1App.swift in Sources */,
+				F03D788E29CCEE04007507C2 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

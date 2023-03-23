@@ -9,13 +9,41 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack{
+            MapView()
+                .ignoresSafeArea(edges: .top)
+                .frame(height: 300)
+            CircleImage()
+                .offset(y: -180)
+                .padding(.bottom, -180)
+            VStack {
+                Text("Transformers")
+                    .font(.title)
+                
+                HStack{
+                    Text("  Oscar Prime")
+                    Spacer()
+                    Text("Mexico  ")
+
+                }
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+                Divider()
+                
+                HStack{
+                    
+                    
+                   
+                    
+                    Text("Sentinel Prime")
+                    Spacer()
+                    Text("Canada")
+                }
+            }
+            .padding()
+            Spacer()
+            
         }
-        .padding()
     }
 }
 
